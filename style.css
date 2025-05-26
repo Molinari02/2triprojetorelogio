@@ -2,11 +2,11 @@
 
 :root {
     --cor-de-fundo: #1E1E1E;
-    --verde: #f37ad1;
-    --branco: hwb(281 39% 13%);
-    --botao-ativo: hsl(245, 74%, 75%);
-    --botao-inativo: #48eca8b3;
-    --texto-fundo: lab(51.94% 78.76 26.28 / 0.983);
+    --verde: #14c30b;
+    --branco: #FFFFFF;
+    --botao-ativo: #dc103d;
+    --botao-inativo: rgba(220, 244, 39, 0.5);
+    --texto-fundo: rgba(58, 55, 94, 0.3);
 }
 
 body {
@@ -60,18 +60,18 @@ body {
     display: block;
 }
 
-.ativo {
-background-color: var(--botao-ativo);
-border-bottom: 4px solid var(--verde);
+.ativo{
+    background-color: var(--botao-ativo);
+    border-bottom: 4px solid var(--verde);
+
 }
 
-@media screen and (mid-width: 768px){
-    .botoes {
+@media screen and (mid-width:768px){
+    .botoes{
         display: flex;
     }
-    .botao: fist-child{
+    .botao:first-child{
         border-radius: 40px 0 0 0;
     }
     
 }
-
