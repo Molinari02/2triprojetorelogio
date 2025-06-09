@@ -2,7 +2,7 @@
 
 :root {
     --cor-de-fundo: #1E1E1E;
-    --verde: #c30b36;
+    --verde:hsl(346, 89.30%, 40.40%);
     --branco: #FFFFFF;
     --botao-ativo: #5e5237;
     --botao-inativo: rgba(220, 244, 39, 0.5);
