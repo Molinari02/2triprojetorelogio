@@ -80,6 +80,21 @@ border-bottom: 4px solid var(--verde);
     display: block;
 }
 
+.abasconteudo{
+    display: none;
+}
+
+.abas-conteudo-titulo-principal{
+    font-size: 28px;
+    text-align: center;
+}
+
+.abas-conteudo-titulo-secundario{
+    color: var(--verde);
+    text-transform: uppercase;
+
+}
+
 @media screen and (mid-width:768px){
     .botoes{
         display: flex;
